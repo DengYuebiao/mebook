@@ -1,0 +1,1627 @@
+[ 2016-10-13T10:48:58+08:00 ] 127.0.0.1 /index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004222s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) D:\www\ebook\Vendor\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, boolean given D:\www\ebook\Vendor\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 98 行.
+NOTIC: [8] Undefined offset: 1 D:\www\ebook\Vendor\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 124 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given D:\www\ebook\Vendor\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 125 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-10-13T10:49:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) D:\www\ebook\Vendor\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, boolean given D:\www\ebook\Vendor\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 98 行.
+NOTIC: [8] Undefined offset: 1 D:\www\ebook\Vendor\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 124 行.
+NOTIC: [2] mysql_query() expects parameter 2 to be resource, null given D:\www\ebook\Vendor\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 125 行.
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) D:\www\ebook\Vendor\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-10-13T10:51:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002571s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004237s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005440s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000270s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 211 行.
+
+[ 2016-10-13T10:52:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002476s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003661s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003584s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000280s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000201s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004274s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.008768s ]
+
+[ 2016-10-13T10:57:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002909s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003729s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004488s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000313s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000206s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 211 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004886s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009946s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 272 行.
+
+[ 2016-10-13T10:58:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+NOTIC: [8] Undefined variable: _page_title D:\www\ebook\App\Home\View\Public\head.php 第 10 行.
+NOTIC: [8] Undefined variable: lang_list D:\www\ebook\App\Home\View\Public\head.php 第 12 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+
+[ 2016-10-13T10:58:08+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004142s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003704s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000280s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.005837s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.011066s ]
+NOTIC: [8] Undefined variable: _token D:\www\ebook\App\Home\View\Index\sysreg.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002841s ]
+
+[ 2016-10-13T10:59:04+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003453s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003911s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004383s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000368s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.005496s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.008439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+
+[ 2016-10-13T10:59:07+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003304s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003703s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004474s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000351s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003868s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.008503s ]
+NOTIC: [8] Undefined variable: _token D:\www\ebook\App\Home\View\Index\sysreg.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-10-13T10:59:14+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003527s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004005s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004451s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000288s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004802s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+
+[ 2016-10-13T10:59:17+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004803s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003536s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005294s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000315s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003938s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009080s ]
+NOTIC: [8] Undefined variable: _token D:\www\ebook\App\Home\View\Index\sysreg.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-10-13T10:59:50+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003384s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003802s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004379s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000296s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003938s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+
+[ 2016-10-13T10:59:53+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003811s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003678s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003723s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000301s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003964s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.008398s ]
+NOTIC: [8] Undefined variable: _token D:\www\ebook\App\Home\View\Index\sysreg.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-10-13T10:59:58+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003101s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004861s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003729s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000319s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.005585s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-10-13T11:00:01+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002941s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004616s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003967s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000286s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004786s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009146s ]
+NOTIC: [8] Undefined variable: _token D:\www\ebook\App\Home\View\Index\sysreg.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-10-13T11:06:03+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002826s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003692s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003858s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000286s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003953s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009371s ]
+
+[ 2016-10-13T11:10:50+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002785s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003974s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003753s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000283s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003918s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009025s ]
+NOTIC: [8] Undefined variable: _token D:\www\ebook\App\Home\View\Index\sysreg.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2016-10-13T11:11:11+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002665s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003761s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003800s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004827s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009060s ]
+
+[ 2016-10-13T11:11:23+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002732s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003869s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004743s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000285s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004250s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.008549s ]
+NOTIC: [8] Undefined variable: _token D:\www\ebook\App\Home\View\Index\sysreg.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-10-13T11:11:33+08:00 ] 127.0.0.1 /Index/sysreg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002624s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003967s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004648s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000290s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004034s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2016-10-13T11:11:34+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003629s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003707s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000193s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003985s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.008608s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_index_left1','sys_index_left2','sys_index_left3','sys_index_left4')  [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004397s ]
+NOTIC: [2048] Declaration of Home\Model\SbookModel::check() should be compatible with that of Think\Model::check() D:\www\ebook\App\Home\Model\SbookModel.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `eb_sbook` [ RunTime:0.003941s ]
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.003491s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=1 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.003570s ]
+NOTIC: [8] Undefined index: order D:\www\ebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=1 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.000712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=2 ) LIMIT 1   [ RunTime:0.000262s ]
+NOTIC: [8] Undefined index: order D:\www\ebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=2 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.000531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003311s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=3 ) LIMIT 1   [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: order D:\www\ebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=3 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.000435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006440s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.001536s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\ebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.000291s ]
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes desc LIMIT 0,10   [ RunTime:0.000301s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as read_cnt,book_id as book_id1 FROM eb_rh GROUP BY book_id)t1 on book_id=book_id1  ORDER BY read_cnt desc LIMIT 0,10   [ RunTime:0.000600s ]
+SQL: SELECT * FROM `eb_book` WHERE `book_id` NOT IN ('25882','44772') ORDER BY readtimes LIMIT 0,8   [ RunTime:0.000344s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006436s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_sbook` LIMIT 1   [ RunTime:0.000846s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie_file` LIMIT 1   [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `eb_annou` [ RunTime:0.004398s ]
+SQL: SELECT * FROM `eb_annou` ORDER BY add_time desc LIMIT 0,24   [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `eb_link` [ RunTime:0.003660s ]
+SQL: SELECT * FROM `eb_link` ORDER BY order_num LIMIT 0,200   [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003870s ]
+SQL: SELECT * FROM `eb_user` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000115s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `eb_user` WHERE ( user_id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eb_bookmark` [ RunTime:0.004399s ]
+SQL: SHOW COLUMNS FROM `eb_cmt` [ RunTime:0.003979s ]
+SQL: SHOW COLUMNS FROM `eb_rh` [ RunTime:0.003856s ]
+SQL: SHOW COLUMNS FROM `eb_search` [ RunTime:0.006189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_bookmark` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eb_bookmark` WHERE ( user_id= ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_cmt` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000083s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eb_cmt` WHERE ( user_id= ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_rh` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000112s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eb_rh` WHERE ( user_id= ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_search` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000096s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eb_search` WHERE ( user_id= ) LIMIT 1  
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000278s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003492s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000290s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.072612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-10-13T11:11:39+08:00 ] 127.0.0.1 /Index/booklist/booklist_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003836s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003702s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005196s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000587s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000604s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 578 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004487s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.010178s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004170s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=2 ) LIMIT 1   [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.004857s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 2 LIMIT 1   [ RunTime:0.000639s ]
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 2 ORDER BY booklist_ext_id desc LIMIT 0,15   [ RunTime:0.000636s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.000524s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\ebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003711s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003976s ]
+SQL: SELECT eb_user.user_id,`user_name`,`portrait`,count(book_id) as book_cnt FROM eb_user INNER JOIN eb_rh ON eb_user.user_id=eb_rh.user_id GROUP BY eb_user.user_id ORDER BY book_cnt desc LIMIT 0,12   [ RunTime:0.000469s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000364s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004632s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000284s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2016-10-13T11:11:42+08:00 ] 127.0.0.1 /Index/booklist/booklist_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003806s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004649s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004727s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000421s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000242s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 578 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004035s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.010294s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003806s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=3 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.003676s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 3 LIMIT 1   [ RunTime:0.001287s ]
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 3 ORDER BY booklist_ext_id desc LIMIT 0,15   [ RunTime:0.000643s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.000566s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\ebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003873s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003667s ]
+SQL: SELECT eb_user.user_id,`user_name`,`portrait`,count(book_id) as book_cnt FROM eb_user INNER JOIN eb_rh ON eb_user.user_id=eb_rh.user_id GROUP BY eb_user.user_id ORDER BY book_cnt desc LIMIT 0,12   [ RunTime:0.000453s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004114s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000286s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-10-13T11:11:44+08:00 ] 127.0.0.1 /Index/booklist/booklist_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003863s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004257s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000197s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 578 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004374s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.010262s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.005136s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=4 ) LIMIT 1   [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.004304s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 4 LIMIT 1   [ RunTime:0.000559s ]
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 4 ORDER BY booklist_ext_id desc LIMIT 0,15   [ RunTime:0.000727s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.000530s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\ebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004211s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003840s ]
+SQL: SELECT eb_user.user_id,`user_name`,`portrait`,count(book_id) as book_cnt FROM eb_user INNER JOIN eb_rh ON eb_user.user_id=eb_rh.user_id GROUP BY eb_user.user_id ORDER BY book_cnt desc LIMIT 0,12   [ RunTime:0.000466s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003641s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000307s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-10-13T11:11:45+08:00 ] 127.0.0.1 /Index/booklist/booklist_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002302s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003743s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004248s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000285s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000193s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 578 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004139s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009476s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003876s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=3 ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.003637s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 3 LIMIT 1   [ RunTime:0.001528s ]
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 3 ORDER BY booklist_ext_id desc LIMIT 0,15   [ RunTime:0.000838s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.000552s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\ebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003881s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003721s ]
+SQL: SELECT eb_user.user_id,`user_name`,`portrait`,count(book_id) as book_cnt FROM eb_user INNER JOIN eb_rh ON eb_user.user_id=eb_rh.user_id GROUP BY eb_user.user_id ORDER BY book_cnt desc LIMIT 0,12   [ RunTime:0.000462s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004079s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000504s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-10-13T11:11:46+08:00 ] 127.0.0.1 /Index/booklist/booklist_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002808s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006236s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004321s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000389s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000210s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 578 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004666s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009656s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004688s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=3 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.004006s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 3 LIMIT 1   [ RunTime:0.002029s ]
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 3 ORDER BY booklist_ext_id desc LIMIT 0,15   [ RunTime:0.000756s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.000546s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\ebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004137s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003675s ]
+SQL: SELECT eb_user.user_id,`user_name`,`portrait`,count(book_id) as book_cnt FROM eb_user INNER JOIN eb_rh ON eb_user.user_id=eb_rh.user_id GROUP BY eb_user.user_id ORDER BY book_cnt desc LIMIT 0,12   [ RunTime:0.000494s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000366s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003954s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000471s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-10-13T11:11:47+08:00 ] 127.0.0.1 /Index/booklist/booklist_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003068s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005024s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004173s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000376s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000286s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 578 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004204s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.010676s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004283s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=2 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.003517s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 2 LIMIT 1   [ RunTime:0.001019s ]
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 2 ORDER BY booklist_ext_id desc LIMIT 0,15   [ RunTime:0.000821s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.000545s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\ebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003924s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004396s ]
+SQL: SELECT eb_user.user_id,`user_name`,`portrait`,count(book_id) as book_cnt FROM eb_user INNER JOIN eb_rh ON eb_user.user_id=eb_rh.user_id GROUP BY eb_user.user_id ORDER BY book_cnt desc LIMIT 0,12   [ RunTime:0.000481s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004151s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-10-13T11:11:48+08:00 ] 127.0.0.1 /Index/booklist/booklist_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002615s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003746s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003724s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000279s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000196s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 578 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004158s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.010531s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004231s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=6 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.004117s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 6 LIMIT 1   [ RunTime:0.001509s ]
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 6 ORDER BY booklist_ext_id desc LIMIT 0,15   [ RunTime:0.000680s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.000607s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\ebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003975s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004226s ]
+SQL: SELECT eb_user.user_id,`user_name`,`portrait`,count(book_id) as book_cnt FROM eb_user INNER JOIN eb_rh ON eb_user.user_id=eb_rh.user_id GROUP BY eb_user.user_id ORDER BY book_cnt desc LIMIT 0,12   [ RunTime:0.000507s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000283s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004144s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000399s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000275s ]
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-10-13T11:11:49+08:00 ] 127.0.0.1 /Index/booklist/booklist_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003337s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004234s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006002s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000409s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.003366s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 578 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.009570s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009326s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004571s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=4 ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.003819s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 4 LIMIT 1   [ RunTime:0.000565s ]
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id = eb_book.book_id  WHERE `booklist_id` = 4 ORDER BY booklist_ext_id desc LIMIT 0,15   [ RunTime:0.001044s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.000516s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\ebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004112s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004571s ]
+SQL: SELECT eb_user.user_id,`user_name`,`portrait`,count(book_id) as book_cnt FROM eb_user INNER JOIN eb_rh ON eb_user.user_id=eb_rh.user_id GROUP BY eb_user.user_id ORDER BY book_cnt desc LIMIT 0,12   [ RunTime:0.000727s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000389s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.005361s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000297s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-10-13T11:11:50+08:00 ] 127.0.0.1 /Index/sbook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002475s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003652s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004163s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000381s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000210s ]
+NOTIC: [2048] Declaration of Home\Model\SbookModel::check() should be compatible with that of Think\Model::check() D:\www\ebook\App\Home\Model\SbookModel.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `eb_sbook` [ RunTime:0.003966s ]
+SQL: SHOW COLUMNS FROM `eb_sbook` [ RunTime:0.004215s ]
+NOTIC: [8] Undefined index: title D:\www\ebook\App\Home\Controller\IndexController.class.php 第 725 行.
+NOTIC: [8] Undefined index: author D:\www\ebook\App\Home\Controller\IndexController.class.php 第 728 行.
+NOTIC: [8] Undefined index: class D:\www\ebook\App\Home\Controller\IndexController.class.php 第 731 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_sbook` LIMIT 1   [ RunTime:0.000881s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_sbook` LIMIT 1   [ RunTime:0.001011s ]
+NOTIC: [8] Undefined index: buff D:\www\ebook\App\Home\Model\SbookModel.class.php(103) : eval()'d code 第 1 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 16 bytes D:\www\ebook\App\Home\Model\SbookModel.class.php(103) : eval()'d code 第 6 行.
+SQL: SELECT * FROM `eb_sbook` ORDER BY sbook_id desc LIMIT 0,20   [ RunTime:0.000388s ]
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000334s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003717s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003791s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: _curlocal D:\www\ebook\App\Home\View\Public\curlocal.php 第 2 行.
+NOTIC: [8] Undefined index: s1 D:\www\ebook\App\Home\View\Index\sbook.php 第 34 行.
+NOTIC: [8] Undefined index: v1 D:\www\ebook\App\Home\View\Index\sbook.php 第 35 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\sbook.php 第 37 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\sbook.php 第 50 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\sbook.php 第 50 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\sbook.php 第 50 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\sbook.php 第 50 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\sbook.php 第 50 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\sbook.php 第 50 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\sbook.php 第 50 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\sbook.php 第 50 行.
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-10-13T11:11:51+08:00 ] 127.0.0.1 /Index/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003736s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004118s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000302s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.003844s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.004159s ]
+NOTIC: [8] Undefined index: title D:\www\ebook\App\Home\Controller\IndexController.class.php 第 821 行.
+NOTIC: [8] Undefined index: author D:\www\ebook\App\Home\Controller\IndexController.class.php 第 824 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\Controller\IndexController.class.php 第 827 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie` LIMIT 1   [ RunTime:0.001415s ]
+SQL: SELECT * FROM `eb_movie` ORDER BY movie_id desc LIMIT 0,10   [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.004180s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=4257 )  [ RunTime:0.002389s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=4256 )  [ RunTime:0.002377s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=4255 )  [ RunTime:0.003755s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=4254 )  [ RunTime:0.003631s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=4253 )  [ RunTime:0.002172s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=4252 )  [ RunTime:0.002134s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=4251 )  [ RunTime:0.002861s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=4250 )  [ RunTime:0.002234s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=4249 )  [ RunTime:0.002746s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=4248 )  [ RunTime:0.002221s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie` LIMIT 1   [ RunTime:0.001289s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000328s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003786s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003718s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: _curlocal D:\www\ebook\App\Home\View\Public\curlocal.php 第 2 行.
+NOTIC: [8] Undefined index: s1 D:\www\ebook\App\Home\View\Index\video.php 第 28 行.
+NOTIC: [8] Undefined index: v1 D:\www\ebook\App\Home\View\Index\video.php 第 29 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 31 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined index: clc D:\www\ebook\App\Home\View\Index\video.php 第 44 行.
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-10-13T11:11:53+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/4100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004514s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003712s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000178s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003979s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009272s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.003669s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=4100 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.003614s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=4257 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=1 WHERE ( movie_id=4257 ) [ RunTime:0.000229s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000334s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003858s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003597s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-10-13T11:12:24+08:00 ] 127.0.0.1 /Index/video?s1=title&v1=&clc=%E7%94%B5%E8%A7%86%E7%94%B5%E5%BD%B1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002243s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003718s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004043s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.003736s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.004662s ]
+NOTIC: [8] Undefined index: author D:\www\ebook\App\Home\Controller\IndexController.class.php 第 824 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie` WHERE `clc_name` LIKE '电视电影%' LIMIT 1   [ RunTime:0.001796s ]
+SQL: SELECT * FROM `eb_movie` WHERE `clc_name` LIKE '电视电影%' ORDER BY movie_id desc LIMIT 0,10   [ RunTime:0.005872s ]
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.004998s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1162 )  [ RunTime:0.002629s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1161 )  [ RunTime:0.002234s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1160 )  [ RunTime:0.002791s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1159 )  [ RunTime:0.003058s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1158 )  [ RunTime:0.002516s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1156 )  [ RunTime:0.002226s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1155 )  [ RunTime:0.002176s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1154 )  [ RunTime:0.002267s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1153 )  [ RunTime:0.002212s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1152 )  [ RunTime:0.002661s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie` LIMIT 1   [ RunTime:0.001245s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004833s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004752s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: _curlocal D:\www\ebook\App\Home\View\Public\curlocal.php 第 2 行.
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-10-13T11:12:28+08:00 ] 127.0.0.1 /Index/video/s1/title/clc/%E7%94%B5%E8%A7%86%E7%94%B5%E5%BD%B1/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003829s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003706s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.004809s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.004193s ]
+NOTIC: [8] Undefined index: author D:\www\ebook\App\Home\Controller\IndexController.class.php 第 824 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie` WHERE `clc_name` LIKE '电视电影%' LIMIT 1   [ RunTime:0.001717s ]
+SQL: SELECT * FROM `eb_movie` WHERE `clc_name` LIKE '电视电影%' ORDER BY movie_id desc LIMIT 10,10   [ RunTime:0.007347s ]
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.003906s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1151 )  [ RunTime:0.002257s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1150 )  [ RunTime:0.002155s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1149 )  [ RunTime:0.002167s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1148 )  [ RunTime:0.002262s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1147 )  [ RunTime:0.002665s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1146 )  [ RunTime:0.002213s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1145 )  [ RunTime:0.002171s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1144 )  [ RunTime:0.002145s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1143 )  [ RunTime:0.002154s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=1142 )  [ RunTime:0.002229s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie` LIMIT 1   [ RunTime:0.001443s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000341s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003857s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003652s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: _curlocal D:\www\ebook\App\Home\View\Public\curlocal.php 第 2 行.
+NOTIC: [8] Undefined index: v1 D:\www\ebook\App\Home\View\Index\video.php 第 29 行.
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-10-13T11:12:34+08:00 ] 127.0.0.1 /Index/video/s1/title/clc/%E7%94%B5%E8%A7%86%E7%94%B5%E5%BD%B1/p/2?s1=title&v1=&clc=%E6%95%99%E5%AD%A6%E8%B5%84%E6%BA%90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003057s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003955s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003780s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000365s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.004739s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.004639s ]
+NOTIC: [8] Undefined index: author D:\www\ebook\App\Home\Controller\IndexController.class.php 第 824 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie` WHERE `clc_name` LIKE '教学资源%' LIMIT 1   [ RunTime:0.002530s ]
+SQL: SELECT * FROM `eb_movie` WHERE `clc_name` LIKE '教学资源%' ORDER BY movie_id desc LIMIT 10,10   [ RunTime:0.006162s ]
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.003748s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=596 )  [ RunTime:0.002957s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=588 )  [ RunTime:0.002523s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=583 )  [ RunTime:0.003694s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=578 )  [ RunTime:0.002575s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=569 )  [ RunTime:0.003889s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=554 )  [ RunTime:0.004035s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=549 )  [ RunTime:0.002375s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=540 )  [ RunTime:0.002220s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=537 )  [ RunTime:0.002593s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_id=532 )  [ RunTime:0.002921s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie` LIMIT 1   [ RunTime:0.001243s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000271s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003993s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003765s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: _curlocal D:\www\ebook\App\Home\View\Public\curlocal.php 第 2 行.
+NOTIC: [8] Undefined variable: link_list D:\www\ebook\App\Home\View\Public\links.php 第 3 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2016-10-13T11:12:38+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/587
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002724s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003755s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004190s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000218s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003986s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.008455s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.003721s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=587 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.003593s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=588 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=1 WHERE ( movie_id=588 ) [ RunTime:0.000239s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000295s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004231s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003517s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-10-13T11:16:33+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/588
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003013s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003648s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003852s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000201s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004917s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.010408s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.003855s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=588 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.004006s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=588 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=2 WHERE ( movie_id=588 ) [ RunTime:0.000261s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003880s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004172s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-10-13T11:16:36+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/589
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002519s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003668s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003811s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000278s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000246s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.005131s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.008516s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.004757s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=589 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.003793s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=588 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=3 WHERE ( movie_id=588 ) [ RunTime:0.000231s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003882s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004934s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2016-10-13T11:30:06+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002838s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003714s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003639s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000280s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000262s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003914s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.011086s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.004019s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=859 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.003907s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=596 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=3 WHERE ( movie_id=596 ) [ RunTime:0.000358s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000396s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.005475s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003554s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-10-13T11:30:12+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/587
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002463s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003308s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004267s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000360s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000230s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003892s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.008608s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.003630s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=587 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.003768s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=588 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=4 WHERE ( movie_id=588 ) [ RunTime:0.000217s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000300s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004068s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004055s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-10-13T11:30:54+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/587
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002609s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003690s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004139s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000355s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000239s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.005236s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.010929s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.004012s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=587 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.003881s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=588 ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=5 WHERE ( movie_id=588 ) [ RunTime:0.000256s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000288s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004058s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003960s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-10-13T11:31:15+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004084s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003610s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000201s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.005168s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.012596s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.004064s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=859 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.004359s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=596 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=4 WHERE ( movie_id=596 ) [ RunTime:0.000217s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.005027s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004129s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-10-13T11:37:57+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003517s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004457s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005433s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000395s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000291s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.006455s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.013421s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.004356s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=859 ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.004713s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=596 ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=5 WHERE ( movie_id=596 ) [ RunTime:0.000488s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.005095s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.005180s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-10-13T16:06:10+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006482s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003886s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003833s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000292s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000204s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004598s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.010322s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.004020s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=859 ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.004308s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=596 ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=6 WHERE ( movie_id=596 ) [ RunTime:0.000377s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000377s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003890s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003753s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002045s ]
+
+[ 2016-10-13T16:08:53+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004275s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006225s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003943s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000290s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000201s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004096s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.011648s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.005836s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=859 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.003861s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=596 ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=7 WHERE ( movie_id=596 ) [ RunTime:0.000383s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000326s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004277s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003780s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-10-13T16:09:12+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002555s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003913s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003716s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000303s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000198s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.005103s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.009734s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.004602s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=859 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.003816s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=596 ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=8 WHERE ( movie_id=596 ) [ RunTime:0.000236s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000307s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.006471s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004513s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2016-10-13T16:09:47+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002921s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003876s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003772s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000278s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000231s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004089s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.010049s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.003919s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=859 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.004219s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=596 ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=9 WHERE ( movie_id=596 ) [ RunTime:0.000235s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000368s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004034s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004068s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2016-10-13T17:45:18+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005961s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004013s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003825s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000319s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000202s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004483s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.008999s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.003811s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=859 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.003976s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=596 ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=10 WHERE ( movie_id=596 ) [ RunTime:0.000336s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000463s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004365s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003769s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001928s ]
+
+[ 2016-10-13T17:45:43+08:00 ] 127.0.0.1 /Index/mvshow/movie_file_id/859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005065s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004206s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003608s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000281s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000200s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 854 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004021s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.010436s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.003976s ]
+SQL: SELECT * FROM `eb_movie_file` WHERE ( movie_file_id=859 ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `eb_movie` [ RunTime:0.003781s ]
+SQL: SELECT * FROM `eb_movie` WHERE ( movie_id=596 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: UPDATE `eb_movie` SET `readtimes`=11 WHERE ( movie_id=596 ) [ RunTime:0.000308s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000298s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003638s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003734s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+

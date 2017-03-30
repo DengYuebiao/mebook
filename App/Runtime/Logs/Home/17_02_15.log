@@ -1,0 +1,258 @@
+[ 2017-02-15T15:05:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006772s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006745s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006509s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000273s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000180s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+
+[ 2017-02-15T15:05:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003774s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003738s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000224s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.008658s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.017898s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_index_left1','sys_index_left2','sys_index_left3','sys_index_left4')  [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.007220s ]
+NOTIC: [2048] Declaration of Home\Model\SbookModel::check() should be compatible with that of Think\Model::check() D:\www\ebook\App\Home\Model\SbookModel.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `eb_sbook` [ RunTime:0.008360s ]
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.008617s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=1 ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.007275s ]
+NOTIC: [8] Undefined index: order D:\www\ebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=1 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.004475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001656s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=2 ) LIMIT 1   [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: order D:\www\ebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=2 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.004022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007999s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=3 ) LIMIT 1   [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: order D:\www\ebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=3 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.003969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014936s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.007360s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\ebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.001287s ]
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes desc LIMIT 0,10   [ RunTime:0.002835s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as read_cnt,book_id as book_id1 FROM eb_rh GROUP BY book_id)t1 on book_id=book_id1  ORDER BY read_cnt desc LIMIT 0,10   [ RunTime:0.010256s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.013687s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_sbook` LIMIT 1   [ RunTime:0.004979s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie_file` LIMIT 1   [ RunTime:0.006881s ]
+SQL: SHOW COLUMNS FROM `eb_annou` [ RunTime:0.007667s ]
+SQL: SELECT * FROM `eb_annou` ORDER BY add_time desc LIMIT 0,24   [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `eb_link` [ RunTime:0.007354s ]
+SQL: SELECT * FROM `eb_link` ORDER BY order_num LIMIT 0,200   [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.008179s ]
+SQL: SELECT * FROM `eb_user` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000225s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `eb_user` WHERE ( user_id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eb_bookmark` [ RunTime:0.008029s ]
+SQL: SHOW COLUMNS FROM `eb_cmt` [ RunTime:0.003997s ]
+SQL: SHOW COLUMNS FROM `eb_rh` [ RunTime:0.003897s ]
+SQL: SHOW COLUMNS FROM `eb_search` [ RunTime:0.007219s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_bookmark` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000135s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eb_bookmark` WHERE ( user_id= ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_cmt` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000099s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eb_cmt` WHERE ( user_id= ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_rh` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000099s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eb_rh` WHERE ( user_id= ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_search` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000096s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eb_search` WHERE ( user_id= ) LIMIT 1  
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000378s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.007063s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.149747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002112s ]
+
+[ 2017-02-15T15:05:41+08:00 ] 127.0.0.1 /Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004083s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.002112s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003753s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000294s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003704s ]
+SQL: SELECT * FROM `eb_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.000669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-02-15T15:05:42+08:00 ] 127.0.0.1 /User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003779s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003906s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004054s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000320s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004103s ]
+SQL: SELECT * FROM `eb_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `eb_bookmark` [ RunTime:0.003876s ]
+SQL: SHOW COLUMNS FROM `eb_cmt` [ RunTime:0.003671s ]
+SQL: SHOW COLUMNS FROM `eb_rh` [ RunTime:0.003896s ]
+SQL: SHOW COLUMNS FROM `eb_search` [ RunTime:0.004549s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_bookmark` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.002342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_cmt` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000671s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_rh` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000860s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_search` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003909s ]
+SQL: SELECT * FROM `eb_book` WHERE ( picture!='images/nopic.gif' AND picture!='' ) LIMIT 0,1000   [ RunTime:0.030897s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000336s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.004073s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004250s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-02-15T15:10:05+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003334s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003629s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003888s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000413s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003579s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003777s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.007090s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006540s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000459s ]
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.m-clclist ul{}
+.m-clclist ul li{ padding:5px 5px; border-bottom:1px dashed #B5C6D8;}
+.m-clclist ul li .info{ float:left;}
+.m-clclist ul li .btns{ float:right;}
+.m-clclist ul li .list_ico{ margin:0 5px 0 0px;}
+.m-clclist ul li ul{margin-left:10px; margin-top:5px;}
+
+.m-tableform table input.t1{width:92%;}
+
+#clc_search{margin-top:10px;}
+.g-sd1{border:1px solid #B5C6D8;}
+.g-mn1{border:1px solid #B5C6D8;}
+.m-clclist .clc_desc{cursor:pointer;}
+.m-clclist .clc_desc:hover{color:#08c;}
+.m-clclist .clc_desc_curr{color:#00AAFF;}
+
+.nodata_search{padding-top:10px; padding-left:10px;}
+
+.g-mn1 .m-page{margin-bottom:5px; margin-right:5px;}

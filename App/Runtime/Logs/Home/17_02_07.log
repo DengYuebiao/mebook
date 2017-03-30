@@ -1,0 +1,1564 @@
+[ 2017-02-07T09:08:51+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=16766&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005363s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:51+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=821&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:51+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=29447&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002468s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:51+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=8238&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:51+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=17210&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002460s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:52+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=20968&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:52+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=19723&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:52+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=1360&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002560s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:52+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=29074&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002502s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:53+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=774&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:53+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=15007&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:54+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=122649027&left=3161526960&numwant=200&key=22340&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:55+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=122649027&left=3161526960&numwant=200&key=17671&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:55+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=122649027&left=3161526960&numwant=200&key=30829&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:08:56+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=122649027&left=3161526960&numwant=200&key=87&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002691s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:09:01+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=122649027&left=3161526960&numwant=200&key=11934&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002329s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:09:02+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=122649027&left=3161526960&numwant=200&key=28667&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002520s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:09:02+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=122649027&left=3161526960&numwant=200&key=10853&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:09:02+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=122649027&left=3161526960&numwant=200&key=21715&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:09:08+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=122649027&left=3161526960&numwant=200&key=28446&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:09:08+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=122649027&left=3161526960&numwant=200&key=24428&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:09:08+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=122649027&left=3161526960&numwant=200&key=7124&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:26:11+08:00 ] 127.0.0.1 /announce.php?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=6879707352&numwant=200&key=23292&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002337s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005579s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:26:13+08:00 ] 127.0.0.1 /announce?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=6879707352&numwant=200&key=7424&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:26:23+08:00 ] 127.0.0.1 /announce.php?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=5989264070&left=890443282&numwant=200&key=6872&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002419s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T09:26:27+08:00 ] 127.0.0.1 /announce?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=5989264070&left=890443282&numwant=200&key=16070&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004278s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006762s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T10:00:06+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002585s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005612s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006512s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007270s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000302s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000204s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:10+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006164s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007729s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000312s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000281s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:11+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003357s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003980s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000460s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000372s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:13+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002064s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003899s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004604s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000285s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000174s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:15+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004446s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004453s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000347s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000208s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:17+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006322s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005251s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000415s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000470s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:20+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004896s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006065s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000385s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000219s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:23+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003693s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007726s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000376s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000290s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:25+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002815s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003983s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003543s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000260s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:27+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003841s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003988s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000338s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000267s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:28+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004607s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003971s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000269s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000171s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:28+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003587s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003518s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000482s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000502s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:29+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003691s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003376s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000312s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000249s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:29+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006791s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006291s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000378s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000239s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:29+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003255s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003760s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000463s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000313s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:29+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002746s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003974s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003454s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000282s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000194s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:30+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006487s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007799s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000234s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:30+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003405s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003298s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000266s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000173s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:30+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004377s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004258s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000289s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000212s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:30+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004414s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004693s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000374s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000271s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:30+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004509s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003378s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000264s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000171s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:31+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002593s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003818s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004986s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000302s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000258s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:32+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.009093s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007590s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000596s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000370s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:32+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.007596s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007733s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000446s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000325s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:32+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.007764s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005149s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000655s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000345s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:32+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002624s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003638s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003315s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000261s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000206s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:32+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002367s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006011s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007201s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000623s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000476s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:32+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.008351s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007079s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000607s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:32+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002434s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005098s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003962s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000315s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000221s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:32+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004833s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004660s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000274s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:33+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002342s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.007054s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007973s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000506s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000511s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:33+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004769s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004222s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000204s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:35+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002916s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003738s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003578s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000290s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000210s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:37+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002592s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004045s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005316s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000461s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000434s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:37+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003773s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004868s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000220s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:37+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003608s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004294s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000521s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000291s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:37+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003285s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004918s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000896s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000559s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:37+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004134s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007041s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000453s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000391s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:37+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005609s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006138s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000374s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000244s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:37+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003341s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003271s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000172s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:38+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003340s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004365s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.001227s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000276s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:38+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.009288s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.008974s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000917s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000603s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:38+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.007929s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.008737s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.001250s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.001086s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:38+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.007191s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.015398s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000434s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000463s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:38+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002640s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004382s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006075s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000340s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000279s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:38+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003740s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004968s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000309s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000235s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:39+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003542s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003506s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000289s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000172s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:39+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005512s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003900s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000213s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:39+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003724s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003945s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000299s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000225s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:39+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005508s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004194s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000424s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000540s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:39+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004121s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003610s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000228s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:39+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.015293s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005124s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000352s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000249s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:39+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004201s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005273s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000368s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000279s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:40+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003582s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003489s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000377s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000226s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:40+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003422s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003395s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000294s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000232s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:40+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004491s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004341s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000234s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:41+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002499s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.007808s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004862s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000281s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000172s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:41+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003957s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003562s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000215s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:42+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005781s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006120s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000374s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000235s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:42+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004632s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006120s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000496s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000351s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:42+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005874s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.011647s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000416s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000308s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:42+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005607s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.017302s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000418s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000397s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:42+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003740s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003316s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000177s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:42+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004473s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004205s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000394s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000245s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:42+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003860s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003346s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000362s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000189s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:43+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004698s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003832s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000304s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000220s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:43+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006700s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006794s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000671s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000344s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:43+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.007989s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006235s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000422s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000293s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:43+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005161s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005010s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000261s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000170s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:43+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005518s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003623s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000301s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000200s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:44+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002351s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.009441s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004862s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000272s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:44+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004609s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004545s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000373s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000267s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:44+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004065s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004087s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000216s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000367s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:45+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002195s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004379s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007077s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000721s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000259s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:45+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003463s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004867s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000288s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000174s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:45+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003353s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003315s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000292s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000177s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:45+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4/%D3%D6%D2%BB%D6%F7%B2%A5%C3%C0%C5%AE%BA%D5%B1%BE%B5%DA%C1%F9%B2%BF%BA%C0%B7%C5%C2%B6%DF%E4%DF%E4.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002510s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.008002s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005822s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000475s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000442s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:45+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006376s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006012s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000504s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000368s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T10:00:45+08:00 ] 127.0.0.1 /0/405563236796C1A0D5C5FF5E0201BDC002B59772/7978D81E66AFB3180C3C2A7C640456B891DB6356/5a8e000/200000/0/4afb9/0/0/5a8e000/fa95c6bc57f8850350e3a9ba0df6acf2/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰/”÷“ª÷˜≤•√¿≈Æ∫’±æµ⁄¡˘≤ø∫¿∑≈¬∂ﬂ‰ﬂ‰.avi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002367s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004790s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004554s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000369s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000309s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:405563236796C1A0D5C5FF5E0201BDC002B59772
+
+[ 2017-02-07T17:50:54+08:00 ] 127.0.0.1 /announce?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=6879707352&numwant=200&key=13944&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001870s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005916s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T17:50:56+08:00 ] 127.0.0.1 /announce.php?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=6879707352&numwant=200&key=27172&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T17:50:58+08:00 ] 127.0.0.1 /announce?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=6394903328&left=484804024&numwant=200&key=7529&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+
+[ 2017-02-07T17:51:14+08:00 ] 127.0.0.1 /announce.php?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-b%C7%1D%EF%81Cz%C5%B4%8CtC&ip=192.168.1.99&port=15000&uploaded=0&downloaded=6394903328&left=484804024&numwant=200&key=12325&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊéßÂà∂Âô®:Announce
+

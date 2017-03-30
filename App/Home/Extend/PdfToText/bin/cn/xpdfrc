@@ -1,0 +1,9 @@
+#----- begin Chinese Simplified support package (2011-sep-02)
+cidToUnicode	Adobe-GB1	D:\www\ebook\App\Home\Extend\PdfToText\bin\cn\Adobe-GB1.cidToUnicode
+unicodeMap	ISO-2022-CN	D:\www\ebook\App\Home\Extend\PdfToText\bin\cn\ISO-2022-CN.unicodeMap
+unicodeMap	EUC-CN		D:\www\ebook\App\Home\Extend\PdfToText\bin\cn\EUC-CN.unicodeMap
+unicodeMap	GBK		D:\www\ebook\App\Home\Extend\PdfToText\bin\cn\GBK.unicodeMap
+cMapDir		Adobe-GB1	D:\www\ebook\App\Home\Extend\PdfToText\bin\cn\CMap
+toUnicodeDir			D:\www\ebook\App\Home\Extend\PdfToText\bin\cn\CMap
+textPageBreaks      no  
+textEncoding        UTF-8 

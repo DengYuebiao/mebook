@@ -1,0 +1,128 @@
+[ 2016-12-16T16:40:49+08:00 ] 192.168.1.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006616s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006714s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006444s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000298s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 3194548666 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000204s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+
+[ 2016-12-16T16:44:13+08:00 ] 192.168.1.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003303s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004140s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003731s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000316s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 3194548666 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000317s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+
+[ 2016-12-16T16:44:18+08:00 ] 192.168.1.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003560s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003438s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000541s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 3194548666 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000260s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+
+[ 2016-12-16T16:44:23+08:00 ] 192.168.1.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003238s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003524s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 3194548666 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000192s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+
+[ 2016-12-16T16:44:25+08:00 ] 192.168.1.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004179s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005315s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000650s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 3194548666 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000208s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+
+[ 2016-12-16T16:44:28+08:00 ] 192.168.1.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002697s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003752s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004113s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000319s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 3194548666 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000199s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+
+[ 2016-12-16T16:44:31+08:00 ] 192.168.1.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003727s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003732s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000315s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 3194548666 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000199s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+
+[ 2016-12-16T16:44:33+08:00 ] 192.168.1.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004273s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003774s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000275s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 3194548666 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000233s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+

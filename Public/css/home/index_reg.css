@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color:#F9F9F9;}
+.m-user_reg{}
+.m-user_reg ul{ margin:0px 0 20px 30px;}
+.m-user_reg ul .label{ display:inline-block;width:100px; margin-right:10px;font-size:14px;text-align:right;line-height:22px;*margin-bottom:3px;}
+.m-user_reg ul li{margin-top:20px; }
+.m-user_reg ul li .vercode{ width:80px; height:30px; margin-bottom:-10px; cursor:pointer;}
+.m-user_reg ul li .label{}
+.m-user_reg .head{margin-top:5px;}
+.m-user_reg .head h1{font-size:16px; padding:8px 10px;background-color:#6495C6;color:#fff; font-weight:normal;}
+.m-user_reg .form{border:1px solid #d8d8da; background-color:#F7F7F7;}
+.m-user_reg .form .left{float:left; width:730px; background-color:#fff;}
+.m-user_reg .form .right{float:right; width:260px; height:100%; padding-top:1px;}
+.m-user_reg .form .right img{margin-top:60px;}
+.m-user_reg .form .right ul{margin:50px 0 20px 95px;}
+.m-user_reg .form .right li{color:#8D6534; list-style:disc;}
+
+.m-user_reg .u-must{margin-right:5px;}
+.m-user_reg label.form_valid_error,.m-login label.form_valid_right{margin-left:5px;}
+
+.input{ width:280px;padding:4px 5px;border: #ABABAB 1px solid;box-shadow: 2px 2px 3px #EDEDED inset;font-size: 14px;font-weight: bold;border-radius: 3px;}
+
+
+.m-sysreg{ margin-top:15%; border:1px solid #d8d8da; background-color:#fff; border-radius:10px;}
+.m-sysreg h2{ padding:6px 0 12px 0; text-align:center; color:#08c; border-bottom:1px solid #d8d8da;}
+.m-sysreg h2 span.u-ico{ margin-bottom:-8px; margin-right:5px;}
+.m-sysreg .form{ width:500px; margin:30px auto;}
+.m-sysreg .form td{padding:8px;}
+.m-sysreg .form .ipt{ width:300px; padding:2px 5px;}

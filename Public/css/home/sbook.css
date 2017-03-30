@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.m-tableform table{ width:100%;}
+.m-tableform table td{padding-left:5px;}
+.m-tableform table input.t{width:200px; padding:2px;}
+
+
+.m-clclist ul{}
+.m-clclist ul li{border-bottom:1px dashed #B5C6D8; list-style:inside;color: #08C;padding:10px 0px 10px 30px;}
+.m-clclist ul li a.clc_item{ display:inline-block;}
+.m-clclist ul li a.curr{ color:#08c;}
+.m-clclist ul li .info{ float:left;}
+.m-clclist ul li .btns{ float:right;}
+.m-clclist ul li .list_ico{ margin:0 5px 0 0px;}
+.m-clclist ul li ul{margin-left:10px; margin-top:5px;}
+
+.m-tableform table input.t1{width:92%;}
+
+#clc_search{margin-top:10px;}
+.m-clclist{border:1px solid #B5C6D8;}
+.m-clclist .clc_desc{cursor:pointer;}
+.m-clclist .clc_desc:hover{color:#08c;}
+.m-clclist .clc_desc_curr{color:#00AAFF;}
+
+.m-clclist-ie ul li a{ margin-left:-6px;}
+
+.m-booklist{padding:5px;}
+.m-booklist ul li{ padding-bottom:10px; margin-bottom:10px; padding-left:10px;border-bottom:1px dashed #B5C6D8;}
+.m-booklist ul li h3.title{ margin-bottom:10px; font-size:14px; color:#08c;}
+.m-booklist ul li p.author{ margin-bottom:10px;color: #333;}
+.m-booklist ul li p.pubdate{ margin-bottom:10px;color: #333;}
+.m-booklist ul li p.disc{ margin-bottom:10px;color: #333;}
+.m-booklist ul li p.disc a{color:#1C77BA;}
+
+.nodata_search{padding-top:10px; padding-left:10px;}
+
+.g-mn1 .m-page{margin-bottom:5px; margin-right:5px;}
+
+.m-clctitle{border:1px solid #B5C6D8; padding:8px 10px; margin-bottom:5px;}
+.m-clctitle h3{ padding-left:8px;color: #08c;border-left: 4px solid #32A525; font-size:14px; font-family:\5b8b\4f53,Arial;}
+
+.m-booklist{border:1px solid #B5C6D8;}
+.m-booklist .file{padding-top:1px;}
+.m-booklist .file a.pitem{ display:inline-block; padding:5px 10px 5px 10px; margin:0 5px 5px 0;border:1px solid #B5C6D8; border-radius:5px;background: url(../../image/play_btn.png) no-repeat -48px 0px;}
+.m-booklist .file a.pitem img{width:16px; height:16px;margin-bottom: -3px; margin-right:5px;}

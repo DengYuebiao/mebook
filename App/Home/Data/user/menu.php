@@ -1,0 +1,43 @@
+<?php
+return array(
+	array(
+		'title'=>L("read_man"),
+		'ico'=>'u-ico1',
+		'list'=>array(
+			array(
+				'name'=>L("user_index"),
+				'url'=>U('User/index')
+			),
+			array(
+				'name'=>L("my_bookmark"),
+				'url'=>U('User/bookmark')
+			),
+			array(
+				'name'=>L("my_comment"),
+				'url'=>U('User/comment')
+			),
+			array(
+				'name'=>L("my_rh"),
+				'url'=>U('User/rh')
+			),
+			array(
+				'name'=>L("my_sh"),
+				'url'=>U('User/sh')
+			),
+		)
+	),
+	array(
+		'title'=>L("user_man"),
+		'ico'=>'u-ico1 u-ico1-2',
+		'list'=>array(
+			array(
+				'name'=>L("user_info"),
+				'url'=>U('User/info')
+			),
+			array(
+				'name'=>L("user_logout"),
+				'url'=>U('User/logout')
+			),
+		)
+	),
+);

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*用户中心菜单样式*/	
+.g-bd{margin-top:10px;}
+.m-user_nav{border:1px solid #B5C6D8;}
+.m-user_nav dt,.m-user_nav li{border-top:1px solid #B5C6D8;}
+.m-user_nav .first{border-top:0;}
+.m-user_nav dl dt{ padding:10px 2px 10px 32px; font-size:14px; color:#333;}
+.m-user_nav li a{display:block;padding:10px 2px 10px 45px; font-size:12px; color:#333;}
+.m-user_nav li a:hover{ background-color:#F4F4F4;}
+.m-user_nav li.active a{ background-color:#C3FFC3;}
+
+.m-user_nav dt{position:relative;zoom:1;}
+.m-user_nav dt .u-ico1{position:absolute;top:9px;left: 10px;}
+
+.m-info{border:1px solid #B5C6D8;}
+.m-info p{ margin:10px 20px; letter-spacing:1px; font-size:13px;}
+.m-info p a{ color:#06C;}
+
+
+.m-indextop{ margin-top:10px;border:1px solid #B5C6D8;}
+.m-indextop .btn{padding:10px 12px;}
+.m-indextop .btn span{ display:inline-block; font-size:14px; padding-left:10px; text-align:center; cursor:pointer;  border-left:4px solid #08c;}
+.m-indextop .btn span.sel{color: #08C;font-weight: bold;font-size: 14px;}
+.m-indextop .list ul.hide{display:none;}
+.m-indextop .list ul li{ float:left; padding:10px 10px 6px 10px; width:110px; overflow:hidden; }
+.m-indextop .list ul li img{ width:110px; height:160px;}
+.m-indextop .list ul li h4{ text-align:center; margin-top:5px; white-space:nowrap; font-size:14px}

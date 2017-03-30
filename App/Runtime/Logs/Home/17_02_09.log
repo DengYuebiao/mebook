@@ -1,0 +1,1324 @@
+[ 2017-02-09T09:01:31+08:00 ] 127.0.0.1 /announce.php?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=6879707352&numwant=200&key=23282&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006178s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:32+08:00 ] 127.0.0.1 /announce?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=6879707352&numwant=200&key=17530&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:33+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=1056&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:33+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=12924&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:34+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=3109&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:35+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=12508&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:37+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=146421721&left=3137754266&numwant=200&key=12051&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:41+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=20701&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:41+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=163&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:42+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=30568&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:42+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=11926&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:42+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=12684&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:42+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=146421721&left=3137754266&numwant=200&key=11161&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:43+08:00 ] 127.0.0.1 /announce.php?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=4641474363&left=2238232989&numwant=200&key=3315&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:43+08:00 ] 127.0.0.1 /announce?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=4641474363&left=2238232989&numwant=200&key=23108&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:43+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=31987&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:46+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=20311&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:48+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=146421721&left=3137754266&numwant=200&key=24164&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:48+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=146421721&left=3137754266&numwant=200&key=30232&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:50+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=146421721&left=3137754266&numwant=200&key=3663&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:51+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=146421721&left=3137754266&numwant=200&key=14240&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:51+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=146421721&left=3137754266&numwant=200&key=23317&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:54+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=146421721&left=3137754266&numwant=200&key=8550&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:58+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=146421721&left=3137754266&numwant=200&key=19690&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:58+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=146421721&left=3137754266&numwant=200&key=20330&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:01:59+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=146421721&left=3137754266&numwant=200&key=18450&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T09:02:15+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003859s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.007292s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005984s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000358s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000176s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:16+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004315s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003657s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000286s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000241s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:16+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003388s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005026s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000381s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000232s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:17+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003654s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004183s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000391s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000293s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:18+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002509s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.008013s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004030s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000315s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000258s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:19+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003287s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004906s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000363s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000240s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:20+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003476s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003987s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000340s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000248s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:22+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001927s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004866s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005169s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000355s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000288s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:24+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003290s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003129s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000257s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000175s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:24+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004118s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003542s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000214s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:25+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004492s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003707s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000351s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000277s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:26+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003319s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004849s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000292s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000196s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:26+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004627s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005021s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000352s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000239s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:28+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003940s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.009838s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000404s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000426s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:29+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006738s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003721s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000263s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000173s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:29+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.015091s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004821s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000205s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:30+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004861s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004281s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000417s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000366s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:31+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003674s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003475s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000995s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000279s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:32+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004144s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003686s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000281s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000226s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:33+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004343s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007128s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000463s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000368s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:34+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003965s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003757s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000551s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000382s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:35+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.010955s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007537s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000210s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:36+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005599s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003289s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000260s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:37+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003564s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003115s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003681s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000310s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000225s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:38+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005268s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004081s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000294s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000194s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:39+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004393s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004162s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000226s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:40+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003179s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003180s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000177s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:40+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003592s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004818s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000420s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000274s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:41+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005005s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003249s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000294s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000229s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:42+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003205s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003305s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000319s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000242s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:43+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003227s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003231s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000454s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000282s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:44+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003300s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003396s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000210s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:45+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003231s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004446s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000315s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000202s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:46+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003370s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003610s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000281s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000310s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:46+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002421s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006187s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006539s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000407s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000368s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:47+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002336s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004341s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003431s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000375s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000245s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:48+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003879s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004018s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000292s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000194s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:49+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004353s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003346s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000258s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000172s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:50+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003225s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003713s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.001671s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000405s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:51+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003787s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003357s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000291s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000204s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:52+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004513s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004430s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000276s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000246s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:52+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004520s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004510s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000359s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000294s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:53+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003623s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004023s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000366s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000218s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:54+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004574s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003360s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000305s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000216s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:55+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004099s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004711s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000257s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000170s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:55+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002704s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003359s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003264s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000355s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000294s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:56+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004662s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003475s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000281s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000195s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:56+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004823s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005369s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000321s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000218s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:57+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004006s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004085s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000335s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000263s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:57+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003595s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003105s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000254s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000171s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:58+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006689s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006327s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000210s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:58+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003126s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003358s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000264s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000170s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:58+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004251s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004397s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000284s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:58+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004343s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004205s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000358s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000222s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:59+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004081s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007161s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000354s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000328s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:02:59+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003544s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003945s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000339s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000251s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:03:00+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003835s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003229s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000259s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000173s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:03:01+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003817s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003408s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000197s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:03:02+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003278s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004644s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000289s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000325s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:03:03+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004343s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003441s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000408s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000233s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:03:03+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003988s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003128s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000297s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000206s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:03:04+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003106s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003242s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000276s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000193s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:03:05+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8/%E6%AF%94%E6%9C%B4%E5%A6%AE%E5%94%9B%E8%BF%98%E6%BC%82%E4%BA%AE%E7%9A%84%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%B0%8F%E5%B8%AB%E5%A6%B9%E7%AC%AC%E5%8D%81%E5%85%AB%E9%83%A8.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003901s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003507s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000317s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000234s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T09:03:05+08:00 ] 127.0.0.1 /0/A4556AA4DE33C4BD515346AC0F84AC218362808D/2FD461559514F507390D04B71BFE26F44560EAD9/1be962fd/200000/0/4afb9/0/0/1be962fd/e2601091469d5f51cc3bc67812164fd0/比朴妮唛还漂亮的白富美小師妹第十八部/比朴妮唛还漂亮的白富美小師妹第十八部.wm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001753s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004136s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003894s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000312s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000248s ]
+ERR: 非法操作:A4556AA4DE33C4BD515346AC0F84AC218362808D
+
+[ 2017-02-09T15:04:09+08:00 ] 127.0.0.1 /announce.php?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=6879707352&numwant=200&key=877&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002197s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006217s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T15:04:10+08:00 ] 127.0.0.1 /announce?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=6879707352&numwant=200&key=13608&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T15:04:19+08:00 ] 127.0.0.1 /announce.php?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=6237687052&left=642020300&numwant=200&key=8870&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-09T15:04:19+08:00 ] 127.0.0.1 /announce?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-%F1%89%5C!ky%FB9gnyr&ip=192.168.1.99&port=15000&uploaded=0&downloaded=6237687052&left=642020300&numwant=200&key=11499&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+ERR: 无法加载控制器:Announce
+

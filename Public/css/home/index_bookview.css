@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.m-bookinfo{ border:1px solid #B5C6D8; margin:5px 0 0 0; padding:10px; border-radius:5px;}
+.m-bookinfo .inner{ position:relative;zoom:1;}
+.m-bookinfo .img{float:left;}
+.m-bookinfo .img img{width:180px; height:252px;}
+.m-bookinfo .txt{float:right;width:520px;overflow:hidden;}
+.m-bookinfo h3.title{ margin-bottom:10px; font-size:16px;}
+.m-bookinfo p{ margin-bottom:10px;}
+.m-bookinfo p.author{;color: #333;}
+.m-bookinfo p.pubdate{;color: #333;}
+.m-bookinfo p.disc{;color: #333;}
+.m-bookinfo p.disc a{color:#1C77BA;}
+.m-bookinfo .btns{}
+
+.m-cmt{margin-top:10px;}
+.m-cmt .txt textarea{ width:708px; height:100px; padding:10px; font-size:14px;}
+.m-cmt .btn{ margin-top:5px;}
+
+.m-cmtlist{margin-top:10px;border:1px solid #B5C6D8;}
+.m-cmtlist h3{ padding:8px 10px;font-size:14px; border-bottom:1px solid #B5C6D8; color:#339900; margin-bottom:10px;}
+.m-cmtlist .ditem{ border-bottom:1px dashed #B5C6D8; padding-bottom:10px; margin-bottom:10px;}
+.m-cmtlist .ditem .left{ float:left; width:60px;}
+.m-cmtlist .ditem .left img{ margin-left:5px; border:1px solid #B5C6D8; border-radius:5px;}
+.m-cmtlist .ditem .left .txt{ text-align:center; margin-top:5px; color:#8B8B8B;}
+.m-cmtlist .ditem .right{ float:right; width:667px;}
+.m-cmtlist .ditem .info{ font-size:13px; padding:5px 10px;}
+.m-cmtlist .ditem .ext{ color:#8B8B8B;}
+.m-cmtlist .m-page{margin-bottom:5px;}
+
+.m-cmtlist .ditem .ext .ico{display:inline-block;width:24px; height:24px; margin-bottom:-4px;}
+.m-cmtlist .ditem .ext{ padding:2px 10px;text-align:right;}
+.m-cmtlist .ditem .ext .cmtico{text-align:right; cursor:pointer;}
+
+.m-booktxt{margin-top:10px;}
+.m-booktxt .inner{border:1px solid #B5C6D8; padding:10px; font-size:13px; line-height:1.8; color:#666;}
+
+.m-noplayer,.m-brower{display:none; border:1px solid #B5C6D8; border-radius:5px; padding:20px 40px; margin-top:10px;}
+.m-noplayer h3{color:#F00; margin-bottom:10px;}
+.m-noplayer span{color:#666; font-size:13px;margin-bottom:10px;}
+.m-noplayer p{margin-top:10px;}
+.m-brower h3{color:#F00; margin-bottom:10px;}
+.m-brower span{color:#666; font-size:13px;}
+
+.m-title{ border:1px solid #B5C6D8; border-radius:5px; padding:5px 10px; margin-top:10px;}
+.m-title h3{text-align:center; color:#08c;}
+
+.m-player{padding:10px; margin-top:10px; border:1px solid #998B87; border-radius:5px; box-shadow:0px 0px 6px 2px #999 inset;}
+
+
+
+.m-indextop{ margin-top:10px;border:1px solid #B5C6D8;}
+.m-indextop .btn{padding:10px 12px;}
+.m-indextop .btn span{ display:inline-block; font-size:14px; padding-left:10px; text-align:center; cursor:pointer;  border-left:4px solid #08c;}
+.m-indextop .btn span.sel{color: #08C;font-weight: bold;font-size: 14px;}
+.m-indextop .list ul.hide{display:none;}
+.m-indextop .list ul li{ padding:10px 10px 6px 10px; border-top:1px solid #B5C6D8;}
+.m-indextop .list ul li a{margin-left:6px;}
+.m-indextop .list ul li span{ display:inline-block;width:19px; height:19px; line-height:19px; text-align:center; vertical-align:middle;color: #FFF;font-weight: bold; background-color:#B2B2B2; border-radius:4px; margin-top:-2px;}
+.m-indextop .list ul li span.ico1{background-color:#08c;}
+.m-indextop .list ul li span.ico2{background-color:#43A7D9;}
+.m-indextop .list ul li span.ico3{background-color:#6FBCE2;}
+
+
+.m-randtop{ margin-top:10px;border:1px solid #B5C6D8;}
+.m-randtop .btn{padding:10px 12px;}
+.m-randtop .btn span{ display:inline-block; font-size:14px; padding-left:10px; text-align:center; cursor:pointer;  border-left:4px solid #08c;}
+.m-randtop .btn span.sel{color: #08C;font-weight: bold;font-size: 14px;}
+.m-randtop .list ul{padding-left:16px;}
+.m-randtop .list ul.hide{display:none;}
+.m-randtop .list ul li{ float:left; padding:10px 5px 6px 5px; width:110px; overflow:hidden; }
+.m-randtop .list ul li img{ width:110px; height:160px;}
+.m-randtop .list ul li h4{ text-align:center; margin-top:5px; white-space:nowrap; font-size:14px}

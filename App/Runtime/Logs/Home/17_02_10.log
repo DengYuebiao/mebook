@@ -1,0 +1,260 @@
+[ 2017-02-10T09:04:37+08:00 ] 127.0.0.1 /announce?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=6879707352&numwant=200&key=1962&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005018s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:37+08:00 ] 127.0.0.1 /announce.php?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=6879707352&numwant=200&key=31190&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002781s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004640s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:39+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=22480&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:39+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=30777&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004979s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:41+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=19180&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005287s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:41+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=171&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:41+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=2780&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:42+08:00 ] 127.0.0.1 /announce?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=6256561420&left=623145932&numwant=200&key=14969&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:44+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=257443097&left=3026732890&numwant=200&key=27245&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:44+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=257443097&left=3026732890&numwant=200&key=17109&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:46+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=3603&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:46+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=9883&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:46+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=3524&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:46+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=257443097&left=3026732890&numwant=200&key=5231&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:48+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=8345&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002368s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:48+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=4785&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:48+08:00 ] 127.0.0.1 /announce.php?info_hash=%82%D4%3C%AD%2BM%8DS)vU%10%B7O%FA%2F(m%AB%FD&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=6256561420&left=623145932&numwant=200&key=24101&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:51+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=0&left=3284175987&numwant=200&key=5488&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002323s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:52+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=257443097&left=3026732890&numwant=200&key=24190&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:52+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=257443097&left=3026732890&numwant=200&key=238&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:04:53+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=257443097&left=3026732890&numwant=200&key=11555&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:05:00+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=257443097&left=3026732890&numwant=200&key=2298&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008836s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:05:03+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=257443097&left=3026732890&numwant=200&key=12133&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003173s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:05:06+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=257443097&left=3026732890&numwant=200&key=20519&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:05:13+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=257443097&left=3026732890&numwant=200&key=6049&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+ERR: 无法加载控制器:Announce
+
+[ 2017-02-10T09:05:14+08:00 ] 127.0.0.1 /announce?info_hash=%023%1Fw%08%24%0E.s%C9%5C%04%8A%08%60I%19%8C%BE%CC&peer_id=-XL0012-H%05%CF%C4%22%1C%DC%C3%03-~%D8&ip=192.168.1.99&port=15000&uploaded=0&downloaded=257443097&left=3026732890&numwant=200&key=10069&compact=1&event=started
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+ERR: 无法加载控制器:Announce
+

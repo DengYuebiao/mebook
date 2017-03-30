@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*后台头部工具条样式*/
+.m-admin_top{width:100%; border-bottom:1px solid #E9E9EA; background-color:#F9F9F9;}
+.m-admin_top .inner{width:1000px; margin:0 auto;}
+.m-admin_top li{float:left; padding:4px 10px;}
+
+/*后台管理导航菜单样式*/
+.m-admin_nav{width:100%; margin-top:10px;}
+.m-admin_nav .inner{width:1000px; margin:0 auto;}
+
+.m-admin_nav .menu li{float:left;}
+.m-admin_nav .menu li a{display:block;padding:10px 22px 10px 22px; background-color:#EFEFEF;background-image: linear-gradient(#F2F2F2, #EBEBEB 85%, #CCC); border:1px solid #BEBEC2; border-left:0; border-bottom:0;border-radius: 4px 4px 0 0; color:#666; text-align:center;}
+.m-admin_nav .menu li a:hover{background-color:#DEDEDE;background-image:linear-gradient(#E5E5E5, #DEDEDE 85%, #CCC);}
+.m-admin_nav .menu li a.active{ background-image:none; background-color:#3693CF; color:#fff;text-shadow: 1px 1px 1px #1F5A80;}
+.m-admin_nav .menu li a.first{ border-left:1px solid #BEBEC2;}
+.m-admin_nav .menu .u-ico{margin:0 auto; margin-bottom:5px;}
+
+.m-admin_nav .submenu{background-color:#3693CF; background:url(../../image/admin_nav_bg.png) bottom repeat-x; border-radius:0px 5px 0px 0px;}
+.m-admin_nav .submenu ul{margin-left:10px;}
+.m-admin_nav .submenu li{float:left;}
+.m-admin_nav .submenu li a{display:block;padding:17px 10px 17px 10px; color:#fff;opacity: 0.8; font-size:13px;}
+.m-admin_nav .submenu li span{display:block;padding:17px 0px 17px 0px; color:#1D4F6E;opacity:0.9; font-size:13px;}
+.m-admin_nav .submenu li a.active{font-weight:bold;opacity:1;}
+.m-admin_nav .submenu li a:hover{opacity: 0.6;}
+
+.m-logoshow{margin:5px;}
+.m-logoshow a.img{ display:inline-block;border:1px solid #d8d8da; width:400px; height:100px; vertical-align:bottom;}
+.m-logoshow a.u-btn{ margin-left:10px;vertical-align:bottom;}
+
+.m-fullsearch p{ margin:0px 0 5px 0;}
+
+.filter_word{width:600px; height:200px; padding:5px; margin-bottom:5px; font-size:13px;}

@@ -1,0 +1,2027 @@
+[ 2017-02-17T09:38:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009377s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\mebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.007579s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000816s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_index_left1','sys_index_left2','sys_index_left3','sys_index_left4')  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.008368s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.007930s ]
+NOTIC: [2048] Declaration of Home\Model\SbookModel::check() should be compatible with that of Think\Model::check() D:\www\mebook\App\Home\Model\SbookModel.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `eb_sbook` [ RunTime:0.007978s ]
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.007802s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=1 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.007361s ]
+NOTIC: [8] Undefined index: order D:\www\mebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=1 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.004046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001470s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=2 ) LIMIT 1   [ RunTime:0.000324s ]
+NOTIC: [8] Undefined index: order D:\www\mebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=2 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.003867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009099s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=3 ) LIMIT 1   [ RunTime:0.000312s ]
+NOTIC: [8] Undefined index: order D:\www\mebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=3 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.003222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016456s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.007991s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\mebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.001202s ]
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes desc LIMIT 0,10   [ RunTime:0.002240s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as read_cnt,book_id as book_id1 FROM eb_rh GROUP BY book_id)t1 on book_id=book_id1  ORDER BY read_cnt desc LIMIT 0,10   [ RunTime:0.010675s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.011690s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_sbook` LIMIT 1   [ RunTime:0.004244s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie_file` LIMIT 1   [ RunTime:0.006553s ]
+SQL: SHOW COLUMNS FROM `eb_annou` [ RunTime:0.007182s ]
+SQL: SELECT * FROM `eb_annou` ORDER BY add_time desc LIMIT 0,24   [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `eb_link` [ RunTime:0.007169s ]
+SQL: SELECT * FROM `eb_link` ORDER BY order_num LIMIT 0,200   [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.009253s ]
+SQL: SELECT * FROM `eb_user` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000479s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `eb_user` WHERE ( user_id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `eb_bookmark` [ RunTime:0.007933s ]
+SQL: SHOW COLUMNS FROM `eb_cmt` [ RunTime:0.004291s ]
+SQL: SHOW COLUMNS FROM `eb_rh` [ RunTime:0.004450s ]
+SQL: SHOW COLUMNS FROM `eb_search` [ RunTime:0.007170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_bookmark` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000118s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eb_bookmark` WHERE ( user_id= ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_cmt` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000078s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eb_cmt` WHERE ( user_id= ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_rh` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000093s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eb_rh` WHERE ( user_id= ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_search` WHERE ( user_id= ) LIMIT 1   [ RunTime:0.000073s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `eb_search` WHERE ( user_id= ) LIMIT 1  
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000330s ]
+NOTIC: [8] Undefined index: sv D:\www\mebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.006923s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000431s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.155180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002711s ]
+
+[ 2017-02-17T10:15:47+08:00 ] 127.0.0.1 /Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002030s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007662s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\mebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003272s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003700s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003621s ]
+SQL: SELECT * FROM `eb_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.000733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002575s ]
+
+[ 2017-02-17T10:15:48+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005271s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004256s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003322s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000279s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000205s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000471s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003444s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003447s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.009262s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006448s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-02-17T10:22:39+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003535s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003520s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000250s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000405s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003344s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003490s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.003082s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006347s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 56 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 56 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 56 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 56 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 56 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 56 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 56 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 56 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-02-17T10:24:43+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003542s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003281s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000505s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000353s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000430s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003733s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003532s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.003797s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006674s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-02-17T11:19:17+08:00 ] 127.0.0.1 /Book/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010615s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004291s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004535s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000381s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000264s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004468s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004341s ]
+NOTIC: [8] Undefined index: title D:\www\mebook\App\Home\Controller\BookController.class.php 第 15 行.
+NOTIC: [8] Undefined index: isbn D:\www\mebook\App\Home\Controller\BookController.class.php 第 19 行.
+NOTIC: [8] Undefined index: author D:\www\mebook\App\Home\Controller\BookController.class.php 第 23 行.
+NOTIC: [8] Undefined index: clc D:\www\mebook\App\Home\Controller\BookController.class.php 第 27 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006464s ]
+SQL: SELECT * FROM `eb_book` ORDER BY book_id desc LIMIT 0,15   [ RunTime:0.001242s ]
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003459s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_booklist_id' ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=1 ) LIMIT 1   [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: s1 D:\www\mebook\App\Home\View\Book\index.php 第 9 行.
+NOTIC: [8] Undefined index: v1 D:\www\mebook\App\Home\View\Book\index.php 第 10 行.
+NOTIC: [8] Undefined index: s2 D:\www\mebook\App\Home\View\Book\index.php 第 11 行.
+NOTIC: [8] Undefined index: v2 D:\www\mebook\App\Home\View\Book\index.php 第 12 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-02-17T11:19:23+08:00 ] 127.0.0.1 /Cmt/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003921s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003539s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004391s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000225s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_cmt` [ RunTime:0.003939s ]
+SQL: SHOW COLUMNS FROM `eb_cmt` [ RunTime:0.003737s ]
+NOTIC: [8] Undefined index: title D:\www\mebook\App\Home\Controller\CmtController.class.php 第 15 行.
+NOTIC: [8] Undefined index: user_name D:\www\mebook\App\Home\Controller\CmtController.class.php 第 19 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_cmt` INNER JOIN eb_book ON eb_cmt.book_id = eb_book.book_id INNER JOIN eb_user ON eb_cmt.user_id = eb_user.user_id  LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT * FROM `eb_cmt` INNER JOIN eb_book ON eb_cmt.book_id = eb_book.book_id INNER JOIN eb_user ON eb_cmt.user_id = eb_user.user_id  ORDER BY cmt_id desc LIMIT 0,15   [ RunTime:0.000324s ]
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: s1 D:\www\mebook\App\Home\View\Cmt\index.php 第 9 行.
+NOTIC: [8] Undefined index: v1 D:\www\mebook\App\Home\View\Cmt\index.php 第 10 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-02-17T11:19:27+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003956s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\mebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004530s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.008389s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000568s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_index_left1','sys_index_left2','sys_index_left3','sys_index_left4')  [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004097s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004606s ]
+NOTIC: [2048] Declaration of Home\Model\SbookModel::check() should be compatible with that of Think\Model::check() D:\www\mebook\App\Home\Model\SbookModel.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `eb_sbook` [ RunTime:0.005022s ]
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.006097s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=1 ) LIMIT 1   [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.004562s ]
+NOTIC: [8] Undefined index: order D:\www\mebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=1 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.000692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=2 ) LIMIT 1   [ RunTime:0.000325s ]
+NOTIC: [8] Undefined index: order D:\www\mebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=2 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.000714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006214s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=3 ) LIMIT 1   [ RunTime:0.000344s ]
+NOTIC: [8] Undefined index: order D:\www\mebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=3 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.000469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009761s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.000536s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\mebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.000251s ]
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes desc LIMIT 0,10   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as read_cnt,book_id as book_id1 FROM eb_rh GROUP BY book_id)t1 on book_id=book_id1  ORDER BY read_cnt desc LIMIT 0,10   [ RunTime:0.002742s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.007565s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_sbook` LIMIT 1   [ RunTime:0.000761s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie_file` LIMIT 1   [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `eb_annou` [ RunTime:0.003889s ]
+SQL: SELECT * FROM `eb_annou` ORDER BY add_time desc LIMIT 0,24   [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `eb_link` [ RunTime:0.005391s ]
+SQL: SELECT * FROM `eb_link` ORDER BY order_num LIMIT 0,200   [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003702s ]
+SQL: SELECT * FROM `eb_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `eb_bookmark` [ RunTime:0.003566s ]
+SQL: SHOW COLUMNS FROM `eb_cmt` [ RunTime:0.005268s ]
+SQL: SHOW COLUMNS FROM `eb_rh` [ RunTime:0.003656s ]
+SQL: SHOW COLUMNS FROM `eb_search` [ RunTime:0.003771s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_bookmark` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.003546s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_cmt` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000747s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_rh` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.001068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_search` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000383s ]
+NOTIC: [8] Undefined index: sv D:\www\mebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.003567s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000263s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.090598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2017-02-17T11:20:01+08:00 ] 127.0.0.1 /Cmt/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004031s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004612s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000210s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_cmt` [ RunTime:0.003520s ]
+SQL: SHOW COLUMNS FROM `eb_cmt` [ RunTime:0.003630s ]
+NOTIC: [8] Undefined index: title D:\www\mebook\App\Home\Controller\CmtController.class.php 第 15 行.
+NOTIC: [8] Undefined index: user_name D:\www\mebook\App\Home\Controller\CmtController.class.php 第 19 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_cmt` INNER JOIN eb_book ON eb_cmt.book_id = eb_book.book_id INNER JOIN eb_user ON eb_cmt.user_id = eb_user.user_id  LIMIT 1   [ RunTime:0.000357s ]
+SQL: SELECT * FROM `eb_cmt` INNER JOIN eb_book ON eb_cmt.book_id = eb_book.book_id INNER JOIN eb_user ON eb_cmt.user_id = eb_user.user_id  ORDER BY cmt_id desc LIMIT 0,15   [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: s1 D:\www\mebook\App\Home\View\Cmt\index.php 第 9 行.
+NOTIC: [8] Undefined index: v1 D:\www\mebook\App\Home\View\Cmt\index.php 第 10 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-02-17T11:20:27+08:00 ] 127.0.0.1 /Cmt/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003707s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004467s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000312s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_cmt` [ RunTime:0.004134s ]
+SQL: SHOW COLUMNS FROM `eb_cmt` [ RunTime:0.003673s ]
+NOTIC: [8] Undefined index: title D:\www\mebook\App\Home\Controller\CmtController.class.php 第 15 行.
+NOTIC: [8] Undefined index: user_name D:\www\mebook\App\Home\Controller\CmtController.class.php 第 19 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_cmt` INNER JOIN eb_book ON eb_cmt.book_id = eb_book.book_id INNER JOIN eb_user ON eb_cmt.user_id = eb_user.user_id  LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT * FROM `eb_cmt` INNER JOIN eb_book ON eb_cmt.book_id = eb_book.book_id INNER JOIN eb_user ON eb_cmt.user_id = eb_user.user_id  ORDER BY cmt_id desc LIMIT 0,15   [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\mebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: s1 D:\www\mebook\App\Home\View\Cmt\index.php 第 9 行.
+NOTIC: [8] Undefined index: v1 D:\www\mebook\App\Home\View\Cmt\index.php 第 10 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-02-17T11:20:30+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003790s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005322s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000314s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000228s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000410s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004376s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004122s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.003675s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006578s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000303s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-02-17T14:48:50+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001729s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005958s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004370s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004677s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001210s ]
+
+[ 2017-02-17T14:48:52+08:00 ] 127.0.0.1 /Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003716s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\mebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005747s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005520s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004744s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000453s ]
+NOTIC: [8] Undefined index: sv D:\www\mebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.006677s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004428s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002418s ]
+
+[ 2017-02-17T14:49:00+08:00 ] 127.0.0.1 /Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003264s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\mebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004226s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005224s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000302s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004198s ]
+SQL: SELECT * FROM `eb_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.000338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-02-17T14:49:01+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004417s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006010s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000320s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000243s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000541s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.005043s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.005435s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.003512s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.008541s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000383s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-02-17T14:49:10+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.007135s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004585s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000486s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004498s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.006376s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.004348s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.009118s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000194s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-02-17T14:58:23+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004130s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.008569s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.001536s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000289s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000501s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004214s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.005097s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.005895s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.009296s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000313s ]
+
+[ 2017-02-17T15:11:05+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002715s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005797s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004998s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000406s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000293s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000820s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.005664s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.006400s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.005198s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.011780s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000297s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2017-02-17T15:30:31+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002503s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005145s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003555s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000264s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000364s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003708s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003633s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.003495s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006823s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.001557s ]
+
+[ 2017-02-17T16:12:59+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002975s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004357s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005092s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000246s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000704s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003936s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004148s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.005063s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006714s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000359s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2017-02-17T17:33:29+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002796s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003826s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003944s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000288s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+
+[ 2017-02-17T17:33:56+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006008s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004246s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000311s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000246s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+
+[ 2017-02-17T17:43:36+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004358s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005642s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000308s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000520s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003671s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003589s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.004321s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006675s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2017-02-17T17:43:38+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004088s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006355s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000305s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000361s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003669s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.005259s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.003338s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006709s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000203s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2017-02-17T17:44:11+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005410s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004332s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000388s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000312s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000380s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003362s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.005050s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.004168s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006571s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2017-02-17T17:44:28+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003644s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005014s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000354s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000369s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004717s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003789s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.003333s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006581s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000216s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-02-17T17:48:07+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003966s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003760s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000289s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000216s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000410s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003867s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003815s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.004031s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.008263s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000287s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-02-17T17:50:55+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005177s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.005636s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000351s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000300s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000462s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003793s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003702s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.003637s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.007201s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000221s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-02-17T17:59:30+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003664s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004788s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000361s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004183s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004027s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.003353s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006611s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000442s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2017-02-17T18:01:18+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003950s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003813s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000341s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000229s ]
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\mebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000480s ]
+NOTIC: [8] Undefined variable: info D:\www\mebook\App\Home\Controller\AdminController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.004195s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.003745s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.003789s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.006587s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\mebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+

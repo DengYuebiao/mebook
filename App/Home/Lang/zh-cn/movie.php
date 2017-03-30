@@ -1,0 +1,21 @@
+<?php
+return array(
+	'title'=>'题名',
+	'author'=>'作者/主演',
+	'keyword'=>'关键字',
+	'picture'=>'封面/图片',
+	'type'=>'类别',
+	'keyword'=>'关键字',
+	'introduce'=>'内容简介',
+	'mv_addr'=>'资源地址',
+	'diversity'=>'分集名',
+	'path'=>'路径',
+	'add_file'=>'添加文件上传',
+	'add_url'=>'添加网络资源',
+	'add_mvfile_fail'=>'新增视频分集数据失败',
+	'joindate'=>'入库日期',
+	'del_mvfile_fail'=>'删除旧视频数据失败',
+	'clc_not_drop'=>'分类下存在数据,无法删除',
+	'clc_name'=>'分类',
+	'drop_file_data_fail'=>'删除视频分集数据失败'
+);

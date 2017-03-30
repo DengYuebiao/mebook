@@ -1,0 +1,1065 @@
+[ 2016-11-11T09:48:10+08:00 ] 192.168.1.88 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001816s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009467s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.007290s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.006328s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000633s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 3194548543 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000243s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+
+[ 2016-11-11T09:48:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002809s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() D:\www\ebook\App\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.006988s ]
+SQL: SELECT * FROM `eb_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003153s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003839s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000188s ]
+NOTIC: [2] Missing argument 1 for Home\Extend\Tcpdf\fpdf::getParser(), called in D:\www\ebook\App\Home\Controller\IndexController.class.php on line 13 and defined D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.012785s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` WHERE ( is_upload=0 ) LIMIT 1   [ RunTime:0.025688s ]
+NOTIC: [8] Undefined variable: reg_info D:\www\ebook\App\Home\Extend\Tcpdf\fpdf.class.php 第 339 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_index_left1','sys_index_left2','sys_index_left3','sys_index_left4')  [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.009068s ]
+NOTIC: [2048] Declaration of Home\Model\SbookModel::check() should be compatible with that of Think\Model::check() D:\www\ebook\App\Home\Model\SbookModel.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `eb_sbook` [ RunTime:0.009747s ]
+SQL: SHOW COLUMNS FROM `eb_movie_file` [ RunTime:0.009389s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=1 ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `eb_booklist_ext` [ RunTime:0.008917s ]
+NOTIC: [8] Undefined index: order D:\www\ebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=1 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.005017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002199s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=2 ) LIMIT 1   [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: order D:\www\ebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=2 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.004305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010049s ]
+SQL: SELECT * FROM `eb_booklist` WHERE ( booklist_id=3 ) LIMIT 1   [ RunTime:0.000387s ]
+NOTIC: [8] Undefined index: order D:\www\ebook\App\Home\Model\BooklistModel.class.php 第 54 行.
+SQL: SELECT * FROM `eb_booklist_ext` INNER JOIN eb_book ON eb_booklist_ext.book_id=eb_book.book_id  WHERE ( booklist_id=3 ) ORDER BY booklist_ext_id desc LIMIT 0,12   [ RunTime:0.004216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018652s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as cmt_cnt,book_id as book_id1 FROM eb_cmt INNER JOIN eb_cmt_ext ON eb_cmt.cmt_id=eb_cmt_ext.cmt_id where ctype=1 GROUP BY book_id)t1 on book_id=book_id1  ORDER BY cmt_cnt desc LIMIT 0,10   [ RunTime:0.008212s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\ebook\App\Home\Model\BookModel.class.php 第 171 行.
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes LIMIT 0,10   [ RunTime:0.001673s ]
+SQL: SELECT * FROM `eb_book` ORDER BY readtimes desc LIMIT 0,10   [ RunTime:0.002819s ]
+SQL: SELECT * FROM `eb_book` INNER JOIN (SELECT count(0) as read_cnt,book_id as book_id1 FROM eb_rh GROUP BY book_id)t1 on book_id=book_id1  ORDER BY read_cnt desc LIMIT 0,10   [ RunTime:0.011666s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.017426s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_sbook` LIMIT 1   [ RunTime:0.005604s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_movie_file` LIMIT 1   [ RunTime:0.007525s ]
+SQL: SHOW COLUMNS FROM `eb_annou` [ RunTime:0.008888s ]
+SQL: SELECT * FROM `eb_annou` ORDER BY add_time desc LIMIT 0,24   [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `eb_link` [ RunTime:0.008363s ]
+SQL: SELECT * FROM `eb_link` ORDER BY order_num LIMIT 0,200   [ RunTime:0.000369s ]
+SQL: SELECT * FROM `eb_user` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `eb_bookmark` [ RunTime:0.008952s ]
+SQL: SHOW COLUMNS FROM `eb_cmt` [ RunTime:0.005072s ]
+SQL: SHOW COLUMNS FROM `eb_rh` [ RunTime:0.004792s ]
+SQL: SHOW COLUMNS FROM `eb_search` [ RunTime:0.006465s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_bookmark` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.001066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_cmt` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000577s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_rh` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000756s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `eb_search` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.000163s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_site_logo' ) LIMIT 1   [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: sv D:\www\ebook\App\Home\View\Public\nav.php 第 22 行.
+SQL: SHOW COLUMNS FROM `eb_nav` [ RunTime:0.006695s ]
+SQL: SELECT * FROM `eb_nav` ORDER BY order_num,nav_id  [ RunTime:0.000312s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.160047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002145s ]
+
+[ 2016-11-11T10:09:32+08:00 ] 127.0.0.1 /Admin/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005117s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003503s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004124s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000419s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000339s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_reg_name','sys_is_open','sys_is_verify','sys_is_reg','sys_ip_type','sys_ip_fail_type','sys_index_left1','sys_index_left2','sys_index_left3','sys_site_logo','sys_filter_word','sys_book_path','cas_open','cas_ver','cas_host','cas_port','cas_uri')  [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `eb_booklist` [ RunTime:0.003518s ]
+SQL: SELECT * FROM `eb_booklist` ORDER BY booklist_id desc  [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `eb_book` [ RunTime:0.004544s ]
+SQL: SHOW COLUMNS FROM `eb_book_ft` [ RunTime:0.006422s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book` LIMIT 1   [ RunTime:0.011017s ]
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_book_ft` LIMIT 1   [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: vt D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 50 行.
+NOTIC: [8] Undefined index: default D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 51 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 199 行.
+NOTIC: [8] Undefined index: tdattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 145 行.
+NOTIC: [8] Undefined index: thattr D:\www\ebook\App\Home\Extend\FormHelper\FormHelper.class.php 第 146 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002165s ]
+
+[ 2016-11-11T10:09:34+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003718s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003901s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000296s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000197s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003911s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.005078s ]
+NOTIC: [8] Undefined index: user_name D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 16 行.
+NOTIC: [8] Undefined index: email D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 19 行.
+NOTIC: [8] Undefined index: phone D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 22 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_user` LIMIT 1   [ RunTime:0.004072s ]
+SQL: SELECT * FROM `eb_user` ORDER BY user_id desc LIMIT 0,15   [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: s1 D:\www\ebook\App\Home\View\Userman\index.php 第 15 行.
+NOTIC: [8] Undefined index: v1 D:\www\ebook\App\Home\View\Userman\index.php 第 16 行.
+NOTIC: [8] Undefined index: s2 D:\www\ebook\App\Home\View\Userman\index.php 第 17 行.
+NOTIC: [8] Undefined index: v2 D:\www\ebook\App\Home\View\Userman\index.php 第 18 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-11-11T10:35:05+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004734s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003996s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003821s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000513s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003982s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004602s ]
+NOTIC: [8] Undefined index: user_name D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 16 行.
+NOTIC: [8] Undefined index: email D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 19 行.
+NOTIC: [8] Undefined index: phone D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 22 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_user` LIMIT 1   [ RunTime:0.000755s ]
+SQL: SELECT * FROM `eb_user` ORDER BY user_id desc LIMIT 0,15   [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: s1 D:\www\ebook\App\Home\View\Userman\index.php 第 15 行.
+NOTIC: [8] Undefined index: v1 D:\www\ebook\App\Home\View\Userman\index.php 第 16 行.
+NOTIC: [8] Undefined index: s2 D:\www\ebook\App\Home\View\Userman\index.php 第 17 行.
+NOTIC: [8] Undefined index: v2 D:\www\ebook\App\Home\View\Userman\index.php 第 18 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2016-11-11T10:35:15+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003729s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003642s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000273s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003768s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004125s ]
+NOTIC: [8] Undefined index: user_name D:\www\ebook\App\Home\Extend\FormValid\FormValid.class.php 第 33 行.
+NOTIC: [8] Undefined index: required D:\www\ebook\App\Home\Extend\FormValid\FormValid.class.php 第 36 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-11-11T10:35:19+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003739s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005639s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004053s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000416s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000209s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003954s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.009431s ]
+NOTIC: [8] Undefined index: user_name D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 16 行.
+NOTIC: [8] Undefined index: email D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 19 行.
+NOTIC: [8] Undefined index: phone D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 22 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_user` LIMIT 1   [ RunTime:0.000765s ]
+SQL: SELECT * FROM `eb_user` ORDER BY user_id desc LIMIT 0,15   [ RunTime:0.000471s ]
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: s1 D:\www\ebook\App\Home\View\Userman\index.php 第 15 行.
+NOTIC: [8] Undefined index: v1 D:\www\ebook\App\Home\View\Userman\index.php 第 16 行.
+NOTIC: [8] Undefined index: s2 D:\www\ebook\App\Home\View\Userman\index.php 第 17 行.
+NOTIC: [8] Undefined index: v2 D:\www\ebook\App\Home\View\Userman\index.php 第 18 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-11-11T14:08:22+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004401s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004423s ]
+SQL: SELECT * FROM `eb_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003862s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003927s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000391s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004122s ]
+NOTIC: [8] Undefined index: user_name D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 16 行.
+NOTIC: [8] Undefined index: email D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 19 行.
+NOTIC: [8] Undefined index: phone D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 22 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_user` LIMIT 1   [ RunTime:0.001078s ]
+SQL: SELECT * FROM `eb_user` ORDER BY user_id desc LIMIT 0,15   [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: s1 D:\www\ebook\App\Home\View\Userman\index.php 第 15 行.
+NOTIC: [8] Undefined index: v1 D:\www\ebook\App\Home\View\Userman\index.php 第 16 行.
+NOTIC: [8] Undefined index: s2 D:\www\ebook\App\Home\View\Userman\index.php 第 17 行.
+NOTIC: [8] Undefined index: v2 D:\www\ebook\App\Home\View\Userman\index.php 第 18 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2016-11-11T15:11:03+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002806s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004102s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003729s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000297s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004087s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004226s ]
+NOTIC: [8] Undefined index: user_name D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 16 行.
+NOTIC: [8] Undefined index: email D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 19 行.
+NOTIC: [8] Undefined index: phone D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 22 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_user` LIMIT 1   [ RunTime:0.001156s ]
+SQL: SELECT * FROM `eb_user` ORDER BY user_id desc LIMIT 0,15   [ RunTime:0.000585s ]
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: s1 D:\www\ebook\App\Home\View\Userman\index.php 第 15 行.
+NOTIC: [8] Undefined index: v1 D:\www\ebook\App\Home\View\Userman\index.php 第 16 行.
+NOTIC: [8] Undefined index: s2 D:\www\ebook\App\Home\View\Userman\index.php 第 17 行.
+NOTIC: [8] Undefined index: v2 D:\www\ebook\App\Home\View\Userman\index.php 第 18 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-11-11T15:26:25+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005160s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003750s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000389s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003928s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004036s ]
+NOTIC: [8] Undefined index: user_name D:\www\ebook\App\Home\Model\UserModel.class.php 第 91 行.
+SQL: SELECT * FROM `eb_user` WHERE ( user_name='' ) LIMIT 1   [ RunTime:0.002021s ]
+NOTIC: [8] Undefined index: user_pwd D:\www\ebook\App\Home\Model\UserModel.class.php 第 98 行.
+SQL: INSERT INTO `eb_user` (`add_time`,`user_pwd`,`portrait`) VALUES (1478849185,'d41d8cd98f00b204e9800998ecf8427e','Public/image/portrait/056.jpg') [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: user_name D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 336 行.
+NOTIC: [8] Undefined index: real_name D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 337 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2016-11-11T16:13:05+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001970s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003663s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004514s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003484s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000284s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003706s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003236s ]
+NOTIC: [8] Undefined index: user_name D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 16 行.
+NOTIC: [8] Undefined index: email D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 19 行.
+NOTIC: [8] Undefined index: phone D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 22 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_user` LIMIT 1   [ RunTime:0.000865s ]
+SQL: SELECT * FROM `eb_user` ORDER BY user_id desc LIMIT 0,15   [ RunTime:0.000385s ]
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: s1 D:\www\ebook\App\Home\View\Userman\index.php 第 15 行.
+NOTIC: [8] Undefined index: v1 D:\www\ebook\App\Home\View\Userman\index.php 第 16 行.
+NOTIC: [8] Undefined index: s2 D:\www\ebook\App\Home\View\Userman\index.php 第 17 行.
+NOTIC: [8] Undefined index: v2 D:\www\ebook\App\Home\View\Userman\index.php 第 18 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-11-11T16:13:11+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004028s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004016s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000292s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000192s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004308s ]
+
+[ 2016-11-11T16:13:19+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003729s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004256s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000281s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004033s ]
+
+[ 2016-11-11T16:13:52+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002165s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.004079s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003899s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000353s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.005499s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004483s ]
+NOTIC: [8] Undefined index: user_name D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 16 行.
+NOTIC: [8] Undefined index: email D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 19 行.
+NOTIC: [8] Undefined index: phone D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 22 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_user` LIMIT 1   [ RunTime:0.000841s ]
+SQL: SELECT * FROM `eb_user` ORDER BY user_id desc LIMIT 0,15   [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: s1 D:\www\ebook\App\Home\View\Userman\index.php 第 15 行.
+NOTIC: [8] Undefined index: v1 D:\www\ebook\App\Home\View\Userman\index.php 第 16 行.
+NOTIC: [8] Undefined index: s2 D:\www\ebook\App\Home\View\Userman\index.php 第 17 行.
+NOTIC: [8] Undefined index: v2 D:\www\ebook\App\Home\View\Userman\index.php 第 18 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2016-11-11T16:13:58+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.006645s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003599s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.005640s ]
+
+[ 2016-11-11T16:38:52+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.003719s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.003987s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000225s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.004943s ]
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.003823s ]
+NOTIC: [8] Undefined index: user_name D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 16 行.
+NOTIC: [8] Undefined index: email D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 19 行.
+NOTIC: [8] Undefined index: phone D:\www\ebook\App\Home\Controller\UsermanController.class.php 第 22 行.
+SQL: SELECT COUNT(0) AS tp_count FROM `eb_user` LIMIT 1   [ RunTime:0.000980s ]
+SQL: SELECT * FROM `eb_user` ORDER BY user_id desc LIMIT 0,15   [ RunTime:0.000326s ]
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined variable: order_str D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 214 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\Extend\TableTool\TableTool.class.php 第 378 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 38 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: attr D:\www\ebook\App\Home\View\Public\head_admin.php 第 55 行.
+NOTIC: [8] Undefined index: s1 D:\www\ebook\App\Home\View\Userman\index.php 第 15 行.
+NOTIC: [8] Undefined index: v1 D:\www\ebook\App\Home\View\Userman\index.php 第 16 行.
+NOTIC: [8] Undefined index: s2 D:\www\ebook\App\Home\View\Userman\index.php 第 17 行.
+NOTIC: [8] Undefined index: v2 D:\www\ebook\App\Home\View\Userman\index.php 第 18 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-11-11T16:52:59+08:00 ] 127.0.0.1 /Userman/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003004s ]
+SQL: SHOW COLUMNS FROM `eb_option` [ RunTime:0.005777s ]
+SQL: SELECT * FROM `eb_option` WHERE ( option_name='sys_reg_name' ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `eb_iplimit` [ RunTime:0.004087s ]
+SQL: SELECT * FROM `eb_option` WHERE `option_name` IN ('sys_ip_fail_type','sys_ip_type')  [ RunTime:0.000320s ]
+SQL: SELECT * FROM `eb_iplimit` WHERE ( is_close=0 AND 2105834626 between ip_beg_val AND ip_end_val ) LIMIT 1   [ RunTime:0.000259s ]
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 111 行.
+NOTIC: [8] Undefined index: url D:\www\ebook\App\Home\Extend\AdminMenu\AdminMenu.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `eb_user` [ RunTime:0.005397s ]
+

@@ -1,0 +1,20 @@
+<?php
+return array(
+	'title'=>'题名',
+	'author'=>'著者',
+	'clc'=>'分类号',
+	'isbn'=>'ISBN',
+	'publish'=>'出版社',
+	'clc'=>'分类号',
+	'ztc'=>'主题词',
+	'keyword'=>'关键字',
+	'dir'=>'目录',
+	'content'=>'内容介绍',
+	'get_book'=>'选择书单数据',
+	'booklist_sel'=>'选择书单',
+	'book_id_empty'=>'书目ID不能为空',
+	'book_info_empty'=>'未找到书目信息',
+	'book_in_booklist'=>'书目已存在书单中,无需重复添加',
+	'add_booklist_ok'=>'加入书单成功',
+	'add_booklist_fail'=>'加入书单失败',
+);

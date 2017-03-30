@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.m-login{ background-color:#fff; border-radius:5px; border:1px solid #d8d8da;}
+.g-bd{}
+
+.m-login .title{margin-top:-17px;}
+
+.m-regdesc{padding:40px 0 78px 80px; border:1px solid #d8d8da; border-radius:5px;}	
+.m-regdesc h2{ font-size:16px; color:#08c; }	
+.m-regdesc ul li{ margin-top:20px; font-size:12px; font-weight:bold; list-style:inside; color:#08c;}	
+
+.g-login{position:relative;zoom:1; padding-top:250px;margin-left:650px}
+
+.m-login_bg{position:absolute; z-index:-1;width:100%; top:0;left:0; bottom:0; zoom:1;}
+.m-login_bg img{width:100%; height:100%;}
+
+.g-sd{
+    float:left;
+}
